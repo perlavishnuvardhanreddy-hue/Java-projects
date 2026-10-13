@@ -1,0 +1,26 @@
+public class Main {
+    public static void main(String[] args) {
+
+        String customerName = "Vishnu";
+        String destination = "Hyderabad";
+        String packageName = "Holiday Package";
+        double packagePrice = 7000;
+        boolean paymentDone = true;
+
+        System.out.println("=== TRAVEL BOOKING SYSTEM ===");
+        System.out.println("Customer Name: " + customerName);
+        System.out.println("Destination: " + destination);
+        System.out.println("Package Name: " + packageName);
+        System.out.println("Package Price: Rs." + packagePrice);
+
+        if (paymentDone) {
+            System.out.println("Payment Status: Paid");
+            System.out.println("Booking Status: Confirmed");
+        } else {
+            System.out.println("Payment Status: Pending");
+            System.out.println("Booking Status: Not Confirmed");
+        }
+
+        System.out.println("Travel Booking Successful!");
+    }
+}
